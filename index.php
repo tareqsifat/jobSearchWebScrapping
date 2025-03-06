@@ -95,7 +95,7 @@ function call_curl($url){
         ];
     } else {
         return [
-            'status' => true,
+            'status' => false,
             'error' => new Exception('Failed to read html')
         ];
 
